@@ -45,12 +45,10 @@ button {
 }
 
 input[type="color"] {
-  -webkit-appearance: none; /* 
-r  کیونکہ color input کا default style ہوتا ہے، ہم اپنا custom style لگانا چاہتے...
- default jo google safari ki color ki style appearence h wo appearance remove krde ga*/
+  -webkit-appearance: none; /* remove default google color styling */
 
-  -moz-appearance: none; /*uper google aur safari k liye ye firefox k liye*/
-  appearance: none; /*ye css ki apni appearence property*/
+  -moz-appearance: none; /* firefox default color styling */
+  appearance: none; /*css own default styling*/
 
   background-color: transparent;
   width: 70px;
@@ -60,13 +58,11 @@ r  کیونکہ color input کا default style ہوتا ہے، ہم اپنا cus
 }
 
 input[type="color"]::-webkit-color-swatch {
-  /*color palate k do border hote h andr wale box ko swatch kete h us ki styling k liye ye property h*/
   border-radius: 8px;
   border: 4px solid #000;
 }
 
 input[type="color"]::-moz-color-swatch {
-  /*color palate k do border hote h andr wale box ko swatch kete h us ki styling k liye ye property h*/
   border-radius: 8px;
   border: 4px solid #000;
 }

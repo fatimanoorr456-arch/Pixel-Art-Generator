@@ -83,10 +83,10 @@ gridButton.addEventListener("click", () => {
         draw = false;
       });
 
-      div.appendChild(col);  //div k andr col insert kro
+      div.appendChild(col);  
     }
 
-    container.appendChild(div);  //container k andr div dalo yani insert kro
+    container.appendChild(div);  
   }
 });
 
