@@ -90,7 +90,7 @@ gridButton.addEventListener("click", () => {
   }
 });
 
-function checker(elementId) {
+function checker(elementId) {   //function
   let gridColumns = document.querySelectorAll(".gridCol");
   gridColumns.forEach((element) => {
     if (elementId == element.id) {
