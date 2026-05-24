@@ -29,7 +29,7 @@ let erase = false;
 
 const isTouchDevice = () => {   //function to check the device is touch or mouse
   try {
-    document.createEvent("TouchEvent"); //we can only write events with touch so we use it to check condition..
+    document.createEvent("TouchEvent"); //we can only write events with touch so we use it to check condition if is it touch or mouse..
 
     deviceType = "touch";
     return true;
