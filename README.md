@@ -27,4 +27,4 @@ It is a web-based Pixel Art Generator built using HTML, CSS, and JavaScript. Thi
 - Use Erase to remove colors.
 - Use Clear Grid to reset the canvas.
 ### Screenshot:
-![Here is project screenshot](img.png)
+![Here is project screenshot](img.PNG)
